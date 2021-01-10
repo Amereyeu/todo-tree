@@ -1,0 +1,52 @@
+"todo-tree.tree.showScanModeButton": false,
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "whole-line",
+    "foreground": "black",
+    "iconColour": "white",
+    "background": "white",
+    "gutterIcon": true
+  },
+  "todo-tree.highlights.customHighlight": {
+    "todo:": {
+      "icon": "alert",
+      "type": "whole-line",
+      "foreground": "white",
+      "iconColour": "#F1A104",
+      "background": "#F1A104",
+      "gutterIcon": true
+    },
+    "bug:": {
+      "icon": "bug",
+      "type": "whole-line",
+      "foreground": "white",
+      "iconColour": "#F94238",
+      "background": "#F94238",
+      "gutterIcon": true
+    },
+    "fixme:": {
+      "icon": "zap",
+      "type": "whole-line",
+      "foreground": "white",
+      "iconColour": "#4B606F",
+      "background": "#4B606F",
+      "gutterIcon": true
+    },
+    "done:": {
+      "icon": "verified",
+      "type": "whole-line",
+      "foreground": "white",
+      "iconColour": "#25B396",
+      "background": "#25B396",
+      "gutterIcon": true
+    },
+    "note:": {
+      "type": "whole-line",
+      "foreground": "white",
+      "iconColour": "#1669a4",
+      "background": "#1669a4",
+      "gutterIcon": true,
+      "icon": "pencil"
+    }
+  },
+  "todo-tree.general.tags": ["todo:", "bug:", "fixme:", "done:", "note:"]
